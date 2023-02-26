@@ -37,8 +37,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"> 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-  <!--  -->
-  <link rel="stylesheet" href="https://pardnchiu.github.io/joball-template-2/css/index.css">
+  <!-- https://pardnchiu.github.io/joball-template-2/ -->
+  <link rel="stylesheet" href="css/index.css">
   <!--  -->
   <script src="https://joball.tw/js/PDExtension.js" defer></script>
   <script src="js/index.min.js" defer></script>
@@ -46,42 +46,52 @@
 <body>
   <style>
     * {
-      /* --col-txt: ${webConfig.css.col.txt};
-      --col-grad-start: ${webConfig.css.col.grad.start};
-      --col-grad-end: ${webConfig.css.col.grad.end};
-      --col-main: ${webConfig.css.col.main}; */
-      --col-bg: #fefafe;
-
-      /* --size-heading: ${webConfig.css.index.size.heading}; */
-
-      --grid-gap: 2rem;
-      --grid-radius: 1rem;
-      --grid-ratio: 1 / 1;
+      /*  */
+      --global-bg-col: unset;
+      --global-bg: linear-gradient(to bottom, #445A6D, #1C2533);
+      --global-col-h: #fff;
+      --global-col-p: #ccc;
+      --global-radius: 1rem;
+      /* 頭像背景. 單色 */
+      --user-top-head-bg-col: #445A6D;
+      /* 頭像外框. 單色 */
+      --user-top-head-border-bg-col: unset;
+      /* 頭像外框. 漸層 */
+      --user-top-head-border-bg: linear-gradient(to right bottom, purple, red);
+      /* 名稱. 字體大小 */
+      --user-top-name-size: 1.75rem;
+      /* 職稱. 字體大小 */
+      --user-top-title-size: 1rem;
+      /* 社交軟體. 字體大小 */
+      --user-top-link-size: 1.5rem;
+      /* 經歷. 數字 */
+      --user-top-exp-h-size: 1.25rem;
+      /* 經歷. 描述 */
+      --user-top-exp-p-size: 1rem;
+      /* 主按鈕背景. 單色 */
+      --user-top-button-bg-col: unset;
+      /* 主按鈕背景. 漸層 */
+      --user-top-button-bg: linear-gradient(to right bottom, purple, red);
+      --user-top-button-p-col: #fff;
+      /*  */
+      --user-top-contact-bg-col: rgba(0, 0, 0, 0.3);
+      --user-top-contact-size: 1.25rem;
+      /*  */
+      --user-top-tab-bg-col: rgba(0, 0, 0, 0.3);
+      --user-top-tab-sel-col: #fff;
+      --user-top-tab-p-col: #fff;
+      --user-top-tab-p-sel-col: #445A6D;
+      /*  */
+      --portfolio-gap: 2rem;
+      --portfolio-ratio: 1 / 1;
+      --portfolio-tab-bg-col: rgba(0, 0, 0, 0.3);
+      --portfolio-tab-bg-sel-col: #fff;
+      --portfolio-tab-p-col: #fff;
+      --portfolio-tab-p-sel-col: #445A6D;
     }
   </style>
   <script>
     var webConfig = {
-      css: {
-        col: {
-          txt: " #37475a",
-          grad: {
-            start: "purple",
-            end: "red"
-          },
-          main: "purple",
-          bg: "#fefafe"
-        },
-        index: {
-          size: {
-            heading: "4rem"
-          }
-        },
-        grid: {
-          gap: "2rem",
-          radius: "1rem",
-          radio: "1 / 1"
-        }
-      },
       user: {
         head: "image/head.jpg",
         name: "Pardn Chiu",
