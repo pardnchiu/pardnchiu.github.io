@@ -1,0 +1,120 @@
+<!-- 
+
+	Copyright 2023 Pardn Ltd 帕登國際有限公司.
+	Created by Pardn Chiu 邱敬幃.
+	Email: mail@pardn.ltd
+	
+ -->
+<!DOCTYPE html>
+<html lang="zh-Hans-TW">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <meta name="mobile-web-app-capable" content="no">
+        <meta name="apple-mobile-web-app-capable" content="no">
+        <meta name="apple-mobile-web-app-status-bar-style" content="default">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="robots" content="index follow">
+        <!--  -->
+        <title>GitHub Page | 邱敬幃 Pardn Chiu</title>
+        <meta name="title" content="GitHub Page | 邱敬幃 Pardn Chiu">
+        <meta name="description" content="帕登數位科技股份有限公司 | 邱敬幃 Pardn Chiu">
+        <!-- <link rel="apple-touch-icon" href=""> -->
+        <!-- <link rel="apple-touch-icon-precomposed" href=""> -->
+        <!-- <link rel="icon" href="" type="image/x-icon"> -->
+        <!--  -->
+        <meta name="author" content="邱敬幃 Pardn Chiu">
+        <link rel="author" href="https://pardn.io">
+        <link rel="canonical" href="https://pardn.io">
+        <meta name="referrer" content="unsafe-url">
+        <meta name="copyright" content="© 2023 帕登數位科技有限公司 Pardn Ltd">
+        <!--  -->
+        <meta property="og:title" content="GitHub Page | 邱敬幃 Pardn Chiu">
+        <meta property="og:description" content="帕登數位科技股份有限公司 | 邱敬幃 Pardn Chiu">
+        <meta property="og:image" content="image/head.jpg">
+        <meta property="og:url" content="https://pardnchiu.github.io/">
+        <meta property="og:site_name" content="Pardn Chiu 的 Github Page">
+        <meta property="og:type" content="website">
+        <!--  -->
+        <meta property="twitter:title" content="GitHub Page | 邱敬幃 Pardn Chiu">
+        <meta property="twitter:description" content="帕登數位科技股份有限公司 | 邱敬幃 Pardn Chiu">
+        <meta property="twitter:image" content="image/head.jpg">
+        <meta property="twitter:url" content="https://pardnchiu.github.io/">
+        <!-- <meta property="twitter:site" content=""> -->
+        <!-- <meta property="twitter:card" content=""> -->
+        <!--  -->
+        <meta name="google-site-verification" content="YQQ2f6AchR8dcb55Az2BYd_mw4TrP0J1RApD-v2v65Y" />
+        <!--  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+            rel="stylesheet">
+        <!--  -->
+        <link rel="stylesheet" href="https://pardnchiu.github.io/personal-page-with-blog/css/index.css">
+        <link rel="stylesheet" href="css/index.css">
+        <!--  -->
+        <script src="https://pardn.io/js/repo.js"></script>
+        <script src="https://pardnchiu.github.io/PDExtension-js/PDExtension.min.js" copyright="Pardn Ltd"></script>
+        <script src="js/index.min.js" defer></script>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-L5VYEZPVXX"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'G-L5VYEZPVXX');
+        </script>
+    </head>
+
+    <body id="body">
+        <nav id="nav">
+            <section>
+                <a href="https://github.com/pardnchiu" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <img class="head" src="https://pardn.io/image/head-s.jpg" alt="邱敬幃 Pardn Chiu" onclick="window.open('https://linkedin.com/in/pardnchiu')">
+                <a href="mailto:mail@pardn.ltd">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+            </section>
+        </nav>
+        <section :path="./view/portfolio.html"></section>
+        <script>
+            const ary = repo;
+            const body = new $dom({
+                id: "body",
+                data: {
+                    title: "Pardn Ltd",
+                    items: [
+                        { href: "./index.html", name: "HOME" },
+                        { href: "./portfolio.html", name: "PORTFOLIO" },
+                        { href: "./blog.html", name: "BLOG" },
+                    ],
+                    copyright: "© 帕登數位科技有限公司 Pardn Ltd",
+                    footer: [
+                        {
+                            href: "https://github.com/pardnchiu",
+                            class: "fa-brands fa-github"
+                        },
+                        {
+                            href: "https://linkedin.com/pardnchiu",
+                            class: "fa-brands fa-linkedin-in"
+                        },
+                        {
+                            href: "mailto:mail@pardn.ltd",
+                            class: "fa-regular fa-envelope"
+                        }
+                    ]
+                },
+                event: {
+                    tab: function () {
+                        this.$pre().$$class("show") ? this.$pre().class_("show") : this.$pre()._class("show")
+                    }
+                }
+            })
+        </script>
+    </body>
+
+</html>
