@@ -1,3 +1,26 @@
-<script>
-  location.href = "/web-template"
-</script>
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <p>我給你的連結好好點</p>
+        <p>請不要跑到我未推薦的頁面好嗎？</p>
+        <p id="text">跳轉至全部範例中</p>
+        <script>
+            let num = 0;
+            setInterval(_ => {
+                num += 1
+                document.getElementById("text").innerText = "跳轉至全部範例中" + Array.from({ length: (num % 3) + 1 }, _ => ".").join("");
+            }, 100)
+            setTimeout(_ => {
+                location.href = "/web-template"
+            }, 3000)
+        </script>
+    </body>
+
+</html>
