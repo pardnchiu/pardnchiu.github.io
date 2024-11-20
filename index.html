@@ -11,6 +11,7 @@
         <p>請不要跑到未推薦的頁面</p>
         <p id="text">跳轉至全部範例中</p>
         <script>
+            let num = 0;
             setInterval(_ => {
                 num += 100
                 document.getElementById("text").innerText = "跳轉至全部範例中" + Array.from({ length: (num % 3) + 1 }, _ => ".").join("");
