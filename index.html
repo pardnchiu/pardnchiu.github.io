@@ -8,18 +8,17 @@
     </head>
 
     <body>
-        <p>我給你的連結好好點</p>
-        <p>請不要跑到我未推薦的頁面好嗎？</p>
+        <p>請不要跑到未推薦的頁面</p>
         <p id="text">跳轉至全部範例中</p>
         <script>
-            let num = 0;
             setInterval(_ => {
-                num += 1
+                num += 100
                 document.getElementById("text").innerText = "跳轉至全部範例中" + Array.from({ length: (num % 3) + 1 }, _ => ".").join("");
-            }, 100)
-            setTimeout(_ => {
-                location.href = "/web-template"
-            }, 3000)
+
+                if (num % 1000 === 0) {
+                    location.href = "/web-template"
+                }
+            }, 100);
         </script>
     </body>
 
