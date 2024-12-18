@@ -1,0 +1,42 @@
+[
+    {
+        "type": "document",
+        "title": {
+            "zh": "使用技術",
+            "en": "Technologies Used"
+        },
+        "target": "tool.md"
+    },
+    {
+        "type": "document",
+        "title": {
+            "zh": "收費模式",
+            "en": "Pricing Model"
+        },
+        "target": "service.md"
+    },
+    {
+        "type": "document",
+        "title": {
+            "zh": "報價詳解",
+            "en": "Pricing Details"
+        },
+        "target": "price.md"
+    },
+    {
+        "type": "document",
+        "title": {
+            "zh": "專案維護",
+            "en": "Project Maintenance"
+        },
+        "target": "maintain.md"
+    },
+    {
+        "type": "document",
+        "title": {
+            "zh": "常見問題",
+            "en": "FAQs"
+        },
+        "target": "faq.md"
+    }
+]

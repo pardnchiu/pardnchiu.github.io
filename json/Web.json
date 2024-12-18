@@ -1,0 +1,158 @@
+[
+    {
+        "type": "link",
+        "title": {
+            "zh": "QuickUI",
+            "en": "QuickUI"
+        },
+        "subtitle": {
+            "zh": "輕量化前端框架",
+            "en": "Frontend Framework"
+        },
+        "href": "https://quickui.pardn.io/",
+        "image": "./image/Web/QuickUI.jpg"
+    },
+    {
+        "type": "link",
+        "title": {
+            "zh": "NanoMD",
+            "en": "NanoMD"
+        },
+        "subtitle": {
+            "zh": "輕量化MD編輯器",
+            "en": "Lightweight MD Editor"
+        },
+        "href": "https://nanomd.quick.io/",
+        "image": "./image/Web/NanoMD.jpg"
+    },
+    {
+        "type": "link",
+        "title": {
+            "zh": "FlexPlyr",
+            "en": "FlexPlyr"
+        },
+        "subtitle": {
+            "zh": "多風格媒體播放器",
+            "en": "Media Player"
+        },
+        "href": "https://flexplyr.pardn.io",
+        "image": "./image/Web/FlexPlyr.jpg"
+    },
+    {
+        "type": "link",
+        "title": {
+            "zh": "RenderJS",
+            "en": "RenderJS"
+        },
+        "subtitle": {
+            "zh": "前端擴展",
+            "en": "Frontend Extension"
+        },
+        "href": "https://renderjs.pardn.io",
+        "image": "https://opengraph.githubassets.com/1/pardnchiu/RenderJS"
+    },
+    {
+        "type": "link",
+        "title": {
+            "zh": "Webuilder",
+            "en": "Webuilder"
+        },
+        "subtitle":  {
+            "zh": "架站工具",
+            "en": "Website Builder"
+        },
+        "href": "https://pardnchiu.github.io/website-builder",
+        "image": "https://opengraph.githubassets.com/1/pardnchiu/website-builder"
+    },
+    {
+        "type": "link",
+        "title": {
+            "zh": "QuickComments",
+            "en": "QuickComments"
+        },
+        "subtitle": {
+            "zh": "AI注釋工具",
+            "en": "VSCode extension"
+        },
+        "href": "https://github.com/pardnchiu/vscode-QuickComments",
+        "image": "https://opengraph.githubassets.com/1/pardnchiu/vscode-QuickComments"
+    },
+    {
+        "type": "link",
+        "title":  {
+            "zh": "Web Template",
+            "en": "Web Template"
+        },
+        "subtitle": {
+            "zh": "前端範例合輯",
+            "en": "Frontend Template"
+        },
+        "href": "https://pardnchiu.github.io/web-template",
+        "image": "https://opengraph.githubassets.com/1/pardnchiu/web-template"
+    },
+    {
+        "type": "link",
+        "title": {
+            "zh": "Pane Desk",
+            "en": "Pane Desk"
+        },
+        "subtitle": {
+            "zh": "窗口管理範例",
+            "en": "Window Management"
+        },
+        "href": "https://pardnchiu.github.io/pane-desk",
+        "image": "https://opengraph.githubassets.com/1/pardnchiu/pane-desk"
+    },
+    {
+        "type": "link",
+        "title": {
+            "zh": "Pokemon Quest",
+            "en": "Pokemon Quest"
+        },
+        "subtitle":  {
+            "zh": "寶可夢探險圖鑑",
+            "en": "CSS drawing"
+        },
+        "href": "https://pardnchiu.github.io/css-pokemon-quest",
+        "image": "./image/Web/css-pokemon-quest.jpg"
+    },
+    {
+        "type": "link",
+        "title": {
+            "zh": "PDPHP Async",
+            "en": "PDPHP Async"
+        },
+        "subtitle": {
+            "zh": "依賴排序的非同步任務",
+            "en": "Async Tasks with Dependency Sorting"
+        },
+        "href": "https://github.com/pardnchiu/PDPHP-Async",
+        "image": "https://opengraph.githubassets.com/1/pardnchiu/PDPHP-Async"
+    },
+    {
+        "type": "link",
+        "title": {
+            "zh": "PHP Blog",
+            "en": "PHP Blog"
+        },
+        "subtitle": {
+            "zh": "PHP部落格範例",
+            "en": "PHP Blog"
+        },
+        "href": "https://github.com/pardnchiu/php-blog",
+        "image": "https://opengraph.githubassets.com/1/pardnchiu/php-blog"
+    },
+    {
+        "type": "link",
+        "title": {
+            "zh": "JOBALL找專家",
+            "en": "JOBALL"
+        },
+        "subtitle": {
+            "zh": "人才媒合平台",
+            "en": "Talent Matching"
+        },
+        "href": "https://joball.tw",
+        "image": "./image/Web/JOBALL.jpg"
+    }
+]

@@ -15,8 +15,8 @@
         <meta name="description" content="帕登國際有限公司負責人，JOBALL找專家創辦人，擁有從需求分析到產品上線的完整開發經驗，幫助企業和初創公司快速實現商業目標。">
         <meta name="keywords" content="QuickUI, JavaScript, Frontend Rendering Framework, Virtual DOM, Efficient Rendering, Auto Update, UI Tools, Lightweight, Rapid Development, Pardn Chiu, 前端渲染框架, 虛擬 DOM, 高效渲染, 自動更新, UI工具, 輕量化, 快速開發, 邱敬幃">
         <meta name="author" content="邱敬幃 Pardn Chiu">
-        <link rel="author" href="https://pardnchiu.github.io">
-        <link rel="canonical" href="https://pardnchiu.github.io">
+        <link rel="author" href="https://pardn.io/">
+        <link rel="canonical" href="https://pardn.io/">
 
         <!-- Favicon -->
         <link rel="icon" href="./static/image/logo.png" type="image/x-icon">
@@ -25,7 +25,7 @@
         <meta property="og:title" content="專業 iOS / Web 開發 - 邱敬幃">
         <meta property="og:description" content="帕登國際有限公司負責人，JOBALL找專家創辦人，擁有從需求分析到產品上線的完整開發經驗，幫助企業和初創公司快速實現商業目標。">
         <meta property="og:image" content="./image/cover.jpg">
-        <meta property="og:url" content="https://pardnchiu.github.io">
+        <meta property="og:url" content="https://pardn.io/">
         <meta property="og:site_name" content="QuickUI">
         <meta property="og:type" content="website">
         <meta property="og:locale" content="zh_TW">
@@ -35,7 +35,7 @@
         <meta property="twitter:title" content="專業 iOS / Web 開發 - 邱敬幃">
         <meta property="twitter:description" content="帕登國際有限公司負責人，JOBALL找專家創辦人，擁有從需求分析到產品上線的完整開發經驗，幫助企業和初創公司快速實現商業目標。">
         <meta property="twitter:image" content="./image/cover.jpg">
-        <meta property="twitter:url" content="https://pardnchiu.github.io">
+        <meta property="twitter:url" content="https://pardn.io/">
 
         <!-- Google Verification -->
         <meta name="google-site-verification" content="YQQ2f6AchR8dcb55Az2BYd_mw4TrP0J1RApD-v2v65Y">
@@ -82,11 +82,11 @@
             "@type": "WebPage",
             "name": "專業 iOS / Web 開發 - 邱敬幃",
             "description": ""帕登國際有限公司負責人，JOBALL找專家創辦人，擁有從需求分析到產品上線的完整開發經驗，幫助企業和初創公司快速實現商業目標。"",
-            "url": "https://pardnchiu.github.io",
+            "url": "https://pardn.io/",
             "creator": {
                 "@type": "Person",
                 "name": "邱敬幃 Pardn Chiu",
-                "url": "https://pardnchiu.github.io"
+                "url": "https://pardn.io/"
             },
             "image": "./static/image/website.jpg"
         }
@@ -193,28 +193,30 @@
         document.addEventListener("DOMContentLoaded", async _ => {
             const url = new URL(location.href);
             const currentLanguage = navigator.language || navigator.userLanguage;
-            const lang = url.searchParams.get("lang");
+            let lang = url.searchParams.get("lang");
             let isZh = /^zh/i.test(currentLanguage);
 
             if (lang != null) {
                 isZh = /^zh/i.test(lang);
             };
 
+            lang = (isZh ? "zh" : "en");
+
             let about, iOS, Web, day, editor;
 
-            await getData("./json/" + (isZh ? "zh" : "en") + "/About.json", data => {
+            await getData("./json/About.json", data => {
                 about = JSON.parse(data);
             });
 
-            await getData("./json/" + (isZh ? "zh" : "en") + "/iOS.json", data => {
+            await getData("./json/iOS.json", data => {
                 iOS = JSON.parse(data);
             });
 
-            await getData("./json/" + (isZh ? "zh" : "en") + "/Web.json", data => {
+            await getData("./json/Web.json", data => {
                 Web = JSON.parse(data);
             });
 
-            await getData("./json/" + (isZh ? "zh" : "en") + "/day.json", data => {
+            await getData("./json/day.json", data => {
                 day = JSON.parse(data);
             });
 
@@ -349,7 +351,7 @@
             function setDate() {
                 const domDate = document.getElementById("time-date");
                 const date = new Date();
-                const dayText = day[date.getDay()]
+                const dayText = day[date.getDay()][lang]
                 const d = ("0" + date.getDate()).slice(-2);
                 const m = ("0" + (date.getMonth() + 1)).slice(-2);
                 const y = String(date.getFullYear()).slice(-2);
@@ -382,15 +384,10 @@
                 button.appendChild(img);
                 button.appendChild(strong);
 
-                if ((e.subtitle ?? "").trim().length > 0) {
-                    button.appendChild(p);
-                    p.innerText = e.subtitle;
-                }
-
                 button.onclick = async _ => {
                     let pre = "";
 
-                    await fetch("./md/" + (isZh ? "zh" : "en") + "/" + e.target)
+                    await fetch("./md/" + lang + "/" + e.target)
                         .then(response => response.text())
                         .then(data => {
                             pre = data;
@@ -399,11 +396,11 @@
                             console.error(error);
                         });
 
-                    setDoc(e.title, pre);
+                    setDoc(e.title[lang], pre);
                 }
 
                 img.src = "./image/document.png";
-                strong.innerText = e.title;
+                strong.innerText = e.title[lang];
 
                 return button
             };
@@ -417,16 +414,16 @@
                 a.appendChild(img);
                 a.appendChild(strong);
 
-                if ((e.subtitle ?? "").trim().length > 0) {
+                if ((e.subtitle[lang] ?? "").trim().length > 0) {
                     a.appendChild(p);
-                    p.innerText = e.subtitle;
+                    p.innerText = e.subtitle[lang];
                 }
 
                 a.href = e.href;
                 a.target = "_blank";
 
                 img.src = e.image;
-                strong.innerText = e.title;
+                strong.innerText = e.title[lang];
 
                 return a
             };
