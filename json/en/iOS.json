@@ -17,15 +17,15 @@
         "type": "link",
         "title": "Firebase Messaging",
         "subtitle": "Real-time Messaging",
-        "href": "https://github.com/pardnchiu/swift-Firebase-Messaging",
-        "image": "./image/iOS/swift-Firebase-Messaging.jpg"
+        "href": "https://github.com/pardnchiu/ios-firebase-messaging",
+        "image": "./image/iOS/ios-firebase-messaging.jpg"
     },
     {
         "type": "link",
         "title": "Moneybook",
         "subtitle": "Expense Tracking",
-        "href": "https://github.com/pardnchiu/swift-Moneybook",
-        "image": "./image/iOS/swift-moneybook.jpg"
+        "href": "https://github.com/pardnchiu/ios-Moneybook",
+        "image": "./image/iOS/ios-moneybook.jpg"
     },
     {
         "type": "link",
