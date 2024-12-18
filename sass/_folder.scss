@@ -1,0 +1,109 @@
+.folder-list {
+
+    @for $i from 0 through 5 {
+
+        &[data-index="#{$i}"]>button.folder:nth-child(#{$i + 1}) {
+            &>div {
+                &::after {
+                    top: 0px;
+                    border-radius: $_4;
+                    box-shadow: 0 -4px 8px #00000034;
+                }
+
+                >div {
+                    width: 96px + 16px;
+                    clip-path: polygon(16px 2px, 0 100%, 96px 100%, 112px 2px);
+                    border-radius: $_32 $_12 $_24 $_8;
+                }
+            }
+        }
+    }
+}
+
+.folder {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: $_8;
+    padding-top: 8px;
+    cursor: pointer;
+
+
+    width: calc((100% - $_48) / 2);
+
+    @media screen and (min-width: 1024px) {
+        width: 96px
+    }
+
+    @media (hover: hover) {
+
+        &:hover {
+            &>div {
+                &::after {
+                    top: 0px;
+                    border-radius: $_4;
+                    box-shadow: 0 -4px 8px #00000034;
+                }
+
+                >div {
+                    width: 96px + 16px;
+                    clip-path: polygon(16px 2px, 0 100%, 96px 100%, 112px 2px);
+                    border-radius: $_32 $_12 $_24 $_8;
+                }
+            }
+        }
+
+        &:active {
+            &>div {
+                &::after {
+                    top: -8px;
+                }
+            }
+        }
+    }
+
+    >div {
+        position: relative;
+        width: 96px;
+        height: 64px;
+        background-color: #797874;
+        border-radius: 0 $_8 $_8 $_8;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: -7.5px;
+            width: 40px;
+            height: 8px;
+            background-color: #797874;
+            clip-path: polygon(0 0, 0 100%, 100% 100%, 80% 0%);
+            border-radius: $_8 0 0 0;
+        }
+
+        &::after {
+            content: "";
+            z-index: 0;
+            position: absolute;
+            top: 8px;
+            left: 6px;
+            width: 90px;
+            height: 56px;
+            background-color: #fff;
+            border-radius: $_8;
+            transition: 0.3s;
+        }
+
+        >div {
+            z-index: 1;
+            position: absolute;
+            top: 8px;
+            width: 96px;
+            height: 56px;
+            background-color: #000;
+            border-radius: $_8;
+            clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+            transition: 0.1s;
+        }
+    }
+}

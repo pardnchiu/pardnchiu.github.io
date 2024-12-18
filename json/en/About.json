@@ -1,0 +1,27 @@
+[
+    {
+        "type": "document",
+        "title": "Technologies Used",
+        "target": "tool.md"
+    },
+    {
+        "type": "document",
+        "title": "Pricing Model",
+        "target": "service.md"
+    },
+    {
+        "type": "document",
+        "title": "Pricing Introduction",
+        "target": "price.md"
+    },
+    {
+        "type": "document",
+        "title": "Project Maintenance",
+        "target": "maintain.md"
+    },
+    {
+        "type": "document",
+        "title": "FAQ",
+        "target": "faq.md"
+    }
+]

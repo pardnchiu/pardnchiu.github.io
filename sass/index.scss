@@ -1,0 +1,483 @@
+@import "./function/hsbTohsl";
+@import "./init";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #000;
+    box-sizing: border-box;
+}
+
+html {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f3ede7;
+    width: 100%;
+    height: 100%;
+    overflow: hidden scroll;
+
+    &::before {
+        content: "PardnChiuPardnChiuPardnChiuPardnChiu";
+        z-index: 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        line-height: calc(100vw / 3);
+        font-family: "Doto", sans-serif;
+        font-size: calc(100vw / 2);
+        font-style: italic;
+        font-weight: 900;
+        color: #e3e2db;
+        white-space: nowrap;
+        letter-spacing: calc(100vw / 3 / -16);
+        animation: before 32s linear infinite;
+    }
+
+    &::after {
+        content: "PardnChiuPardnChiuPardnChiuPardnChiu";
+        z-index: 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        line-height: calc(100vw / 3);
+        font-family: "Doto", sans-serif;
+        font-size: calc(100vw / 2);
+        font-style: italic;
+        font-weight: 900;
+        color: #e3e2db;
+        white-space: nowrap;
+        letter-spacing: calc(100vw / 3 / -16);
+        transform: translateX(0);
+        animation: after 64s linear infinite;
+        animation-delay: 16s;
+        opacity: 0;
+    }
+
+    @keyframes before {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    @keyframes after {
+        0% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        &:has(section.pop-folder[data-show="1"]) {
+
+            >nav>section {
+                height: $_48;
+            }
+
+            >section.center {
+
+                padding-top: $_48;
+            }
+        }
+
+    }
+
+    >nav {
+        z-index: 1;
+        // position: sticky;
+        // top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 $_32;
+        width: 100%;
+
+        flex-flow: column;
+
+        >section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: $_24;
+            width: 100%;
+            max-width: $_1280;
+            height: $_96;
+            transition: 0.3s;
+
+            flex-flow: row wrap;
+
+            @media screen and (min-width: 1024px) {
+                flex-flow: row;
+            }
+
+            >section {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: $_24;
+
+                &.left {
+                    order: 0;
+                }
+
+                &.center {
+                    order: 2;
+                    justify-content: space-between;
+                    width: 100%;
+
+                    @media screen and (min-width: 1024px) {
+                        order: 1;
+                        justify-content: flex-end;
+                        flex-grow: 1;
+                        width: unset;
+                    }
+                }
+
+                &.right {
+                    gap: $_12;
+
+                    order: 1;
+
+                    @media screen and (min-width: 1024px) {
+                        order: 2;
+                    }
+                }
+            }
+
+            strong {
+                font-family: "Kanit", sans-serif;
+                font-size: $_28;
+                font-weight: 500;
+
+                >span {
+                    color: #00000080;
+                }
+            }
+
+            p {
+                font-family: monospace;
+                font-size: $_14;
+                letter-spacing: 0.5px;
+
+                >span {
+                    padding: 0 $_4;
+                }
+            }
+
+            i {
+                font-size: $_20;
+            }
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+
+    >section.center {
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        min-height: calc(100vh - $_96);
+        transition: 0.3s;
+
+        >* {
+            flex-shrink: 0;
+        }
+
+        padding: $_32;
+
+        @media screen and (min-width: 1024px) {
+            padding: 0 $_32;
+        }
+
+        >section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            transition: 0.3s;
+            min-height: calc(100vh - $_96);
+
+            >* {
+                flex-shrink: 0;
+            }
+
+            flex-flow: column;
+            gap: 0;
+
+            @media screen and (min-width: 1024px) {
+                flex-flow: row;
+                gap: $_128;
+            }
+
+
+            @media screen and (min-width: 1280px) {
+                gap: $_256;
+                max-width: $_1280;
+            }
+
+            >section.tab {
+                order: 1;
+                display: flex;
+                align-items: center;
+                gap: $_48;
+                transition: 0.3s;
+
+                >* {
+                    flex-shrink: 0;
+                }
+
+                justify-content: space-between;
+                flex-flow: row wrap;
+
+                @media screen and (min-width: 1024px) {
+                    order: 0;
+                    justify-content: center;
+                    flex-flow: column;
+                }
+            }
+
+            >section.body {
+                order: 0;
+                display: flex;
+                flex-flow: column;
+                justify-content: center;
+                align-items: flex-start;
+                flex-grow: 1;
+                transition: 0.3s;
+                min-height: calc(100vh - $_96);
+
+                gap: $_48;
+
+                @media screen and (min-width: 640px) {
+                    gap: $_96;
+                }
+
+                @media screen and (min-width: 1024px) {
+                    order: 1;
+                }
+
+                >section:first-child {
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    gap: $_32;
+                    flex-grow: 1;
+
+
+                    h1,
+                    h2 {
+                        font-size: 2rem;
+
+                        @media screen and (min-width: 480px) {
+                            font-size: 3rem;
+                        }
+
+                        @media screen and (min-width: 1024px) {
+                            font-size: 4.5rem;
+                        }
+                    }
+
+                    h2 {
+                        margin-top: -$_32;
+                    }
+
+                    span {
+                        display: flex;
+                        align-items: center;
+                        gap: $_8;
+                        font-size: $_18;
+                        font-weight: 600;
+                        color: #00000080;
+
+                        >span {
+                            top: -4px;
+                        }
+                    }
+
+                    p {
+                        line-height: $_32;
+                        color: #000000cc;
+                        font-size: $_18;
+                        font-weight: 600;
+                        letter-spacing: -0.2px;
+                    }
+
+                    em {
+                        line-height: $_32;
+                        font-size: $_14;
+                        font-weight: 400;
+                        font-style: normal;
+                        color: transparent;
+                        background: linear-gradient(90deg, purple, red, orange);
+                        background-size: 200% 100%;
+                        background-clip: text;
+                        -webkit-background-clip: text;
+                        animation: moveBackground 2s ease-in-out infinite;
+                        -webkit-background-clip: text;
+                    }
+
+                    @keyframes moveBackground {
+                        0% {
+                            background-position: 0% 50%;
+                        }
+
+                        50% {
+                            background-position: 100% 50%;
+                        }
+
+                        100% {
+                            background-position: 0% 50%;
+                        }
+                    }
+                }
+
+                >section:last-child {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    transition: 0.3s;
+
+                    align-items: flex-start;
+                    flex-flow: column;
+                    gap: $_48;
+                    padding-bottom: $_64;
+
+                    @media screen and (min-width: 480px) {
+                        align-items: flex-end;
+                        flex-flow: row;
+                        gap: unset;
+                    }
+
+                    @media screen and (min-width: 640px) {
+                        padding-bottom: $_96;
+                    }
+
+                    @media screen and (min-width: 1024px) {
+                        padding-bottom: $_64;
+                    }
+
+                    >section {
+                        display: flex;
+                        flex-flow: column;
+                        gap: $_16;
+
+                        &:last-child {
+                            justify-content: flex-end;
+                            display: none;
+
+                            @media screen and (min-width: 1024px) {
+                                display: flex;
+                            }
+                        }
+
+                        >strong {
+                            color: #00000080;
+                            font-size: $_14;
+                            font-weight: 500;
+                        }
+
+                        >a {
+                            display: flex;
+                            align-items: center;
+                            gap: $_8;
+                            text-decoration: none;
+                            font-weight: 600;
+                            font-size: $_18;
+                            background: linear-gradient(90deg, purple, red, orange);
+                            background-size: 200% 100%;
+                            background-clip: text;
+                            -webkit-background-clip: text;
+                            animation: moveBackground 2s ease-in-out infinite;
+                            -webkit-background-clip: text;
+                            transition: 0.3s;
+
+                            @media (hover: hover) {
+                                
+                                &:hover {
+                                    color: #00000000;
+                                }
+                            }
+
+                            i {
+                                width: $_20;
+                                line-height: $_20;
+                                text-align: center;
+                                color: #000000;
+                            }
+                        }
+
+                        >p {
+                            color: #00000080;
+                            letter-spacing: -0.1px;
+
+                            span {
+                                letter-spacing: -0.2px;
+                                font-size: $_14;
+                            }
+
+                            a {
+                                text-decoration: none;
+                                color: #000;
+                            }
+                        }
+                    }
+                }
+            }
+
+            >footer {
+                order: 2;
+                padding: $_48 0 $_24;
+
+                @media screen and (min-width: 1024px) {
+                    display: none;
+                }
+
+                p {
+                    color: #00000080;
+                    letter-spacing: -0.1px;
+                    text-align: center;
+
+                    span {
+                        letter-spacing: -0.2px;
+                        font-size: $_14;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+
+    @import "./pop-folder";
+    @import "./pop-doc";
+    @import "./folder";
+}

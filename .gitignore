@@ -1,1 +1,7 @@
-.DS_store
+# 忽略 VSCode 的工作台設定檔案
+*.code-workspace
+package.json
+
+# 忽略 macOS 系統自動生成的 .DS_Store 檔案與資料夾圖標
+.DS_Store
+Icon?
