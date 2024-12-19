@@ -237,6 +237,8 @@
                 },
                 event: {
                     open: e => {
+                        setDoc("", "", false);
+
                         const _this = e.target;
                         const parent = _this.parentElement;
                         const index = Array.prototype.indexOf.call(parent.children, _this);
