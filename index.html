@@ -2,7 +2,7 @@
 <html lang="zh-hant">
 
     <head>
-        
+
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -88,7 +88,54 @@
                 "name": "邱敬幃 Pardn Chiu",
                 "url": "https://pardn.io/"
             },
-            "image": "./static/image/website.jpg"
+            "image": "./static/image/website.jpg",
+            "mainEntity": [
+                {
+                    "@type": "WebPageElement",
+                    "name": "關於我 - 邱敬幃",
+                    "url": "https://pardn.io/"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "name": "關於我 - 邱敬幃",
+                    "url": "https://pardn.io/index.html?folder=about"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "name": "使用技術 - 邱敬幃",
+                    "url": "https://pardn.io/index.html?folder=about&target=technologies_used"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "name": "收費模式 - 邱敬幃",
+                    "url": "https://pardn.io/index.html?folder=about&target=pricing_model"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "name": "報價介紹 - 邱敬幃",
+                    "url": "https://pardn.io/index.html?folder=about&target=pricing_details"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "name": "專案維護 - 邱敬幃",
+                    "url": "https://pardn.io/index.html?folder=about&target=project_maintenance"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "name": "常見問題 - 邱敬幃",
+                    "url": "https://pardn.io/index.html?folder=about&target=faq"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "name": "iOS - 邱敬幃",
+                    "url": "https://pardn.io/index.html?folder=ios"
+                },
+                {
+                    "@type": "WebPageElement",
+                    "name": "Web - 邱敬幃",
+                    "url": "https://pardn.io/index.html?folder=web"
+                }
+            ]
         }
         </script>
     </head>
@@ -97,7 +144,7 @@
         <nav>
             <section>
                 <section class="left">
-                    <strong>Pardn<span>Chiu</span></strong>
+                    <strong>Pardn<span>CHIU</span></strong>
                 </section>
                 <section class="center">
                     <p id="time-time">GMT--<span>/</span>--:--:--</p>
@@ -123,13 +170,13 @@
                         </div>
                         <strong>{{ i18n.about }}</strong>
                     </button>
-                    <button class="folder" @click="open" data-tag="iOS" data-title="iOS">
+                    <button class="folder" @click="open" data-tag="ios" data-title="iOS">
                         <div>
                             <div></div>
                         </div>
                         <strong>iOS</strong>
                     </button>
-                    <button class="folder" @click="open" data-tag="Web" data-title="Web">
+                    <button class="folder" @click="open" data-tag="web" data-title="Web">
                         <div>
                             <div></div>
                         </div>
@@ -193,6 +240,8 @@
         document.addEventListener("DOMContentLoaded", async _ => {
             const url = new URL(location.href);
             const currentLanguage = navigator.language || navigator.userLanguage;
+            const folder = (url.searchParams.get("folder") || "").trim().toLocaleLowerCase();
+            const target = (url.searchParams.get("target") || "").trim().toLocaleLowerCase();
             let lang = url.searchParams.get("lang");
             let isZh = /^zh/i.test(currentLanguage);
 
@@ -232,22 +281,19 @@
                     change: isZh ? "en" : "zh",
                     now: Math.floor(Date.now() / 1000),
                     about: about,
-                    iOS: iOS,
-                    Web: Web
+                    ios: iOS,
+                    web: Web
                 },
                 event: {
                     open: e => {
-                        setDoc("", "", false);
-
                         const _this = e.target;
+                        const tag = _this.dataset.tag;
+                        const title = _this.dataset.title;
                         const parent = _this.parentElement;
                         const index = Array.prototype.indexOf.call(parent.children, _this);
-                        const pop = document.getElementById("pop-folder");
-                        const popTitle = document.getElementById("pop-folder-title");
-                        const isShow = parseInt(pop.dataset.show) === 1;
 
-                        if (!isShow) {
-                            pop.dataset.show = 1;
+                        if (page.data[tag] == null) {
+                            return
                         };
 
                         if (parseInt(parent.dataset.index) === index) {
@@ -255,30 +301,18 @@
                         };
 
                         parent.dataset.index = index;
-                        popTitle.innerText = _this.dataset.title;
 
-                        const dom = document.getElementById("pop-folder-body");
-                        const temp = document.createDocumentFragment();
-
-                        for (let e of page.data[_this.dataset.tag]) {
-                            if (e.type === "document") {
-                                temp.appendChild(setButton(e));
-                            }
-                            else {
-                                temp.appendChild(setLink(e));
-                            };
-                        };
-
-                        dom.replaceChildren(temp)
+                        setDoc();
+                        setFolder({
+                            title: title,
+                            folder: tag
+                        });
                     },
                     close: e => {
-                        const pop = document.getElementById("pop-folder");
-                        const folder = document.getElementById("folder-list");
-                        pop.dataset.show = 0;
-                        folder.dataset.index = null;
+                        setFolder();
                     },
                     close_doc: e => {
-                        setDoc("", "", false)
+                        setDoc();
                     }
                 },
                 when: {
@@ -296,6 +330,30 @@
                                 fill: 0
                             }
                         });
+
+                        if (folder.length < 1) {
+                            return;
+                        };
+
+                        let btn = document.querySelector(`[data-tag="${folder}"]`);
+
+                        if (btn == null) {
+                            return;
+                        };
+
+                        btn.click();
+
+                        if (target.length < 1) {
+                            return;
+                        };
+
+                        btn = document.querySelector(`[data-doc="${target}"]`);
+
+                        if (btn == null) {
+                            return;
+                        };
+
+                        btn.click();
                     }
                 }
             });
@@ -311,14 +369,13 @@
                     .catch(error => {
                         console.error(error);
                     });
-            }
+            };
 
             function setTime() {
                 const domTime = document.getElementById("time-time");
                 const date = new Date();
 
-                // 計算 UTC+8 時區時間
-                const offset = 8; // GMT+8
+                const offset = 8;
                 const utc = date.getTime() + date.getTimezoneOffset() * 60000;
                 const localDate = new Date(utc + offset * 3600000);
 
@@ -334,6 +391,7 @@
                 }
             };
 
+            // * 禁用聯絡方式時間判斷 (後續考慮)
             function setLocalTime() {
                 const domTime = document.getElementById("time-time");
                 const date = new Date();
@@ -341,13 +399,6 @@
                 const h = ("0" + date.getHours()).slice(-2);
                 const m = ("0" + date.getMinutes()).slice(-2);
                 const s = ("0" + date.getSeconds()).slice(-2);
-
-                domTime.innerHTML = "GMT" + (offset < 0 ? "-" : "+") + Math.abs(offset) + "<span>/</span>" + h + ":" + m + ":" + s;
-
-                // 換天
-                if (oldDate < date.getDate()) {
-                    setDate();
-                };
             };
 
             function setDate() {
@@ -361,20 +412,58 @@
                 domDate.innerHTML = "<span>" + dayText + "</span>" + d + "/" + m + "/" + y;
             };
 
-            function setDoc(title, pre, setShow = true) {
-                let dom = document.getElementById("pop-doc");
-                let domTitle = document.getElementById("pop-doc-title");
-                const isShow = parseInt(dom.dataset.show) === 1;
+            function setFolder(body) {
+                const domFolderList = document.getElementById("folder-list");
+                const domPopFolder = document.getElementById("pop-folder");
+                const domPopFolderTitle = document.getElementById("pop-folder-title");
+                const domPopFolderBody = document.getElementById("pop-folder-body");
+                const isShow = parseInt(domPopFolder.dataset.show) === 1;
 
-                if (!isShow && setShow) {
-                    dom.dataset.show = 1;
-                }
-                else if (!setShow) {
-                    dom.dataset.show = 0;
-                }
+                if (body == null) {
+                    domFolderList.dataset.index = null;
+                    domPopFolder.dataset.show = 0;
+                    url.searchParams.delete("folder");
+                    window.history.replaceState({}, document.title, url.href);
+                    return;
+                };
 
-                domTitle.innerText = title;
-                editor.init(pre);
+                domPopFolder.dataset.show = 1;
+                domPopFolderTitle.innerText = body.title;
+                url.searchParams.set("folder", body.folder);
+                window.history.replaceState({}, document.title, url.href);
+
+                const temp = document.createDocumentFragment();
+
+                for (let e of page.data[body.folder]) {
+                    temp.appendChild(
+                        e.type === "document"
+                            ? setButton(e)
+                            : setLink(e)
+                    );
+                };
+
+                domPopFolderBody.replaceChildren(temp);
+            };
+
+            function setDoc(body) {
+                const domPopDoc = document.getElementById("pop-doc");
+                const domPopDocTitle = document.getElementById("pop-doc-title");
+                const isShow = parseInt(domPopDoc.dataset.show) === 1;
+
+                if (body == null) {
+                    domPopDoc.dataset.show = 0;
+                    domPopDocTitle.innerText = "";
+                    editor.init("");
+                    url.searchParams.delete("target");
+                    window.history.replaceState({}, document.title, url.href);
+                    return;
+                };
+
+                domPopDoc.dataset.show = 1;
+                domPopDocTitle.innerText = body.title;
+                editor.init(body.pre);
+                url.searchParams.set("target", body.tag);
+                window.history.replaceState({}, document.title, url.href);
             };
 
             function setButton(e) {
@@ -383,22 +472,22 @@
                 const strong = document.createElement("strong");
                 const p = document.createElement("p");
 
+                button.dataset.doc = e.key;
                 button.appendChild(img);
                 button.appendChild(strong);
 
                 button.onclick = async _ => {
                     let pre = "";
 
-                    await fetch("./md/" + lang + "/" + e.target)
-                        .then(response => response.text())
-                        .then(data => {
-                            pre = data;
-                        })
-                        .catch(error => {
-                            console.error(error);
-                        });
+                    await getData("./md/" + lang + "/" + e.target, data => {
+                        pre = data;
+                    });
 
-                    setDoc(e.title[lang], pre);
+                    setDoc({
+                        title: e.title[lang],
+                        pre: pre,
+                        tag: e.key
+                    });
                 }
 
                 img.src = "./image/document.png";
@@ -419,7 +508,7 @@
                 if ((e.subtitle[lang] ?? "").trim().length > 0) {
                     a.appendChild(p);
                     p.innerText = e.subtitle[lang];
-                }
+                };
 
                 a.href = e.href;
                 a.target = "_blank";

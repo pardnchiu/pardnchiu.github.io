@@ -1,5 +1,6 @@
 [
     {
+        "key": "technologies_used",
         "type": "document",
         "title": {
             "zh": "使用技術",
@@ -8,6 +9,7 @@
         "target": "tool.md"
     },
     {
+        "key": "pricing_model",
         "type": "document",
         "title": {
             "zh": "收費模式",
@@ -16,14 +18,16 @@
         "target": "service.md"
     },
     {
+        "key": "pricing_details",
         "type": "document",
         "title": {
-            "zh": "報價詳解",
+            "zh": "報價介紹",
             "en": "Pricing Details"
         },
         "target": "price.md"
     },
     {
+        "key": "project_maintenance",
         "type": "document",
         "title": {
             "zh": "專案維護",
@@ -32,6 +36,7 @@
         "target": "maintain.md"
     },
     {
+        "key": "faq",
         "type": "document",
         "title": {
             "zh": "常見問題",
