@@ -10,7 +10,7 @@
 
 > [!NOTE]
 > All quotations are pre-tax. Invoices will include an additional 5% ([PARDN International](https://findbiz.nat.gov.tw/fts/query/QueryBar/queryInit.do?banNo=24924502)).  
-> Transparent pricing for various development services is detailed in the [Pricing Overview](#plan).  
+> Transparent pricing for various development services is detailed in the [Pricing Details](https://pardn.io/?folder=about&target=pricing_details).  
 
 **One-Time Development**: Payments are made in stages to ensure your interests are protected.  
 
@@ -45,26 +45,3 @@
 
 - If project features fail to meet expectations, free adjustments will be provided until they conform to requirements.  
 - If standards are still unmet, partial refunds based on incomplete feature proportions will be arranged after mutual agreement, ensuring fair protection.  
-
-## Multi-Developer and Collaboration Models  
-
-> [!NOTE]
-> Depending on project scope and timelines, suitable development models are offered to ensure efficient collaboration and successful delivery.  
-
-**Single Developer**: Focuses on functionality and system integration, excluding design.  
-
-Clients must provide UI designs or reference samples for visual guidance in feature development.  
-
-- **Native iOS Development**  
-  High-performance native functionality tailored to the iOS platform.  
-- **Full-Stack Web Development**  
-  Covers frontend and backend functionalities with system integration.  
-
-**Collaborative Team**: For large-scale or time-sensitive projects, collaborative teams enhance execution efficiency.  
-
-- **Design Needs**  
-  Coordinate with professional designers for UI/UX designs to ensure an aesthetic and user-friendly interface.  
-- **Native Android Development**  
-  Involve specialized developers for efficient Android platform support.  
-- **Accelerated Team Development**  
-  Assemble a professional team for simultaneous iOS, Android, and web full-stack development to ensure high-quality and timely delivery.

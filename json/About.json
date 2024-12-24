@@ -9,15 +9,6 @@
         "target": "tool.md"
     },
     {
-        "key": "pricing_model",
-        "type": "document",
-        "title": {
-            "zh": "收費模式",
-            "en": "Pricing Model"
-        },
-        "target": "service.md"
-    },
-    {
         "key": "pricing_details",
         "type": "document",
         "title": {
@@ -25,6 +16,24 @@
             "en": "Pricing Details"
         },
         "target": "price.md"
+    },
+    {
+        "key": "pricing_model",
+        "type": "document",
+        "title": {
+            "zh": "收費與退款",
+            "en": "Pricing"
+        },
+        "target": "service.md"
+    },
+    {
+        "key": "development",
+        "type": "document",
+        "title": {
+            "zh": "開發模式",
+            "en": "Development"
+        },
+        "target": "development.md"
     },
     {
         "key": "project_maintenance",
