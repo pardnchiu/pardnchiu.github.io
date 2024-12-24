@@ -1,66 +1,64 @@
-> [!NOTE]
-> Provide **long-term stable support** after the project goes live, suitable for projects requiring continuous operation and updates.  
-> - **Basic Warranty**: Offers **unlimited bug fixes for six months** after the project launch, ensuring peace of mind.  
-> - **Long-term Maintenance**: The longer the contract, the greater the discount (10% off for a two-year contract; 15% off for a three-year contract).
-
-## Frontend Website
+I'll translate this maintenance service pricing and details into English:
 
 > [!NOTE]
-> $1,240 / Year
+> Providing long-term stable support, suitable for projects requiring stable operation and continuous updates.
+> - ***Basic Warranty***: Unlimited bug fixes within six months after project launch for your peace of mind.
+> - ***Long-term Maintenance***: Longer contract terms offer greater discounts (2-year contract: 10% off; 3-year contract: 15% off).
 
-- Bug Fixes: Unlimited corrections for display issues or compatibility adjustments.  
-- Feature Additions: Up to 3 new features annually (e.g., button animations, simple interactive effects).  
-- Performance Optimization: Twice a year (e.g., compressing images, optimizing CSS/JS).  
-- Compatibility Adjustments: Adapting to updates for major browsers (Chrome, Safari, Edge).
+**Minimum contract period: 6 months**
 
-## Backend Website
-
-> [!NOTE]
-> $1,550 / Year
-
-- Bug Fixes: Unlimited API corrections and backend logic adjustments.  
-- Feature Additions: Up to 3 new features annually (e.g., simple APIs or database tables).  
-- Database Maintenance: Quarterly index optimization and redundancy cleanup.  
-- Server Maintenance: SSL certificate renewal and security patch updates.
-
-## Full-stack Website
+## Website Micro Maintenance
 
 > [!NOTE]
-> $2,480 / Year  
-> Suitable for medium-to-large website projects requiring both frontend and backend support for enterprise clients.
+> 200 / month
 
-- Bug Fixes: Unlimited (e.g., display issues, API errors).  
-- Feature Additions: Up to 4 new features annually (e.g., new pages, simple admin modules).  
-- Performance Optimization: Quarterly comprehensive optimization (frontend load speed, backend computation efficiency).  
-- Security Enhancements: Annual vulnerability detection and patching to safeguard data security.
+- Bug fixes: Unlimited fixes for page display or compatibility issues.
+- Health monitoring: 24/7 system health checks.
+- Issue resolution: Treatment initiated within 180 minutes.
 
-## iOS
+## Website Basic Maintenance
 
 > [!NOTE]
-> $1,860 / Year  
-> Suitable for mobile app projects requiring long-term support.
+> 400 / month
 
-- Bug Fixes: Unlimited (e.g., app crashes, feature errors).  
-- Compatibility Updates: Adapting to new iOS system versions, updating APIs, and functionality modules.  
-- Feature Additions: Up to 3 new features annually (e.g., new buttons or simple list functions).  
-- Performance Optimization: Annual startup speed, resource usage analysis, and adjustments.
+- Bug fixes: Unlimited fixes for page display or compatibility issues.
+- Health monitoring: 24/7 system health checks.
+- Issue resolution: Treatment initiated within 120 minutes.
+- New features: Up to 2 feature updates per half-year (e.g., new pages, management modules).
+- Performance optimization: One comprehensive optimization per half-year (frontend loading speed, backend processing efficiency).
+- Security enhancement: Annual vulnerability detection and patching to ensure data security.
 
-## Advanced Full-stack Website
-
-> [!NOTE]
-> $3,720 / Year  
-> Suitable for high-traffic, high-demand platforms or e-commerce projects.
-
-- Feature Additions: Up to 6 new features annually (e.g., shopping cart modules, membership management).  
-- Security Checks: Quarterly comprehensive security checks with detailed improvement reports.  
-- Professional Consultation: Annual technical strategy meetings with recommendations for feature expansion and performance optimization.  
-- Real-time Support: 24/7 emergency response with issue handling within 1 hour.
-
-## Advanced iOS
+## Website Advanced Maintenance
 
 > [!NOTE]
-> $3,100 / Year  
+> 800 / month
 
-- Feature Additions: Up to 6 new features annually (e.g., new modules or pages).  
-- Security Checks: Quarterly comprehensive security checks with detailed reports.  
-- Professional Consultation: Annual technical discussions with recommendations for feature expansion.  
+- Bug fixes: Unlimited fixes for page display or compatibility issues.
+- Health monitoring: 24/7 system health checks.
+- Issue resolution: Treatment initiated within 60 minutes.
+- New features: Up to 4 feature updates per half-year (e.g., adding shopping cart, member management modules).
+- Performance optimization: Quarterly comprehensive optimization (frontend loading speed, backend processing efficiency).
+- Security enhancement: Semi-annual vulnerability detection and patching to ensure data security.
+- Professional consultation: Semi-annual technical strategy meetings, providing feature expansion suggestions and performance optimization solutions.
+- Immediate support: 24/7 emergency response.
+
+## iOS Basic Maintenance
+
+> [!NOTE]
+> 400 / month
+
+- Bug fixes: Unlimited fixes for app crashes, functional errors, and other issues to ensure stable operation.
+- Compatibility updates: Module and API updates following each iOS system update to ensure compatibility with the latest system version.
+- New features: Up to 1 item per half-year (e.g., adding buttons, simple lists), meeting basic functional enhancement needs.
+
+## iOS Advanced Maintenance
+
+> [!NOTE]
+> 800 / month
+
+- Bug fixes: Unlimited fixes for app crashes, functional errors, and other issues to ensure stable operation.
+- Compatibility updates: Module and API updates following each iOS system update to ensure compatibility with the latest system version.
+- New features: Up to 2 items per half-year (e.g., adding buttons, simple lists), meeting basic functional enhancement needs.
+- Security inspection: Quarterly comprehensive security checks.
+- Performance optimization: Annual analysis and adjustment of launch speed and resource usage to enhance app performance and ensure smooth user experience.
+- Professional consultation: Semi-annual technical strategy meetings, providing feature expansion suggestions and performance optimization solutions.

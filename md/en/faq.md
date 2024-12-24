@@ -11,7 +11,7 @@
 - **Is installment payment supported?**  
    Apart from clearly defined phased payment plans, additional installment options must be negotiated before signing the contract. Flexible payment schedules can be arranged for long-term projects based on progress.  
 - **How are major feature omissions after the project launch handled?**  
-   A one-year unlimited bug fix warranty is provided. If the omission is within the scope of the contract, it will be implemented for free. If it is a new requirement, it will be re-evaluated and quoted accordingly.
+   A half-year unlimited bug fix warranty is provided. If the omission is within the scope of the contract, it will be implemented for free. If it is a new requirement, it will be re-evaluated and quoted accordingly.
 
 ## Dedicated Development
 
@@ -39,7 +39,7 @@
 - **What defines a new feature?**  
    New features are limited to simple functions not included in the contract, such as adding a button, form validation, or data field. Large modules (e.g., e-commerce systems or multilingual support) are excluded.  
 - **Is maintenance support provided?**  
-   Development delivery is prioritized, and a one-year unlimited bug fix warranty is included to ensure stable operation after project completion.  
+   Development delivery is prioritized, and a half-year unlimited bug fix warranty is included to ensure stable operation after project completion.  
    For feature updates, a separate warranty contract covering new features must be signed to ensure continuous development support.  
 - **How are delays during development handled?**  
    Delays caused by communication or external factors will be negotiated based on the actual situation, with schedules updated and progress and costs reconfirmed.  
