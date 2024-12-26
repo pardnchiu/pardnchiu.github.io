@@ -47,14 +47,18 @@
 
 - ### Service Response Times
     - #### Micro Maintenance:
-        - Process Initiation: Within 180 minutes.
-        - Resolution Time: Based on issue complexity, simple issues resolved within 1 business day.
+        Process Initiation: Within 180 minutes.
     - #### Basic Maintenance:
-        - Process Initiation: Within 180 minutes.
-        - Resolution Time: Medium complexity issues resolved within 1-2 business days.
+        Process Initiation: Within 180 minutes.
     - #### Advanced Maintenance:
-        - Process Initiation: Within 60 minutes.
-        - Resolution Time: Complex issues resolved within 1-3 business days, with ongoing progress updates.
+        Process Initiation: Within 60 minutes.
+- ### Resolution Time
+    - #### simple issues
+        resolved within 1 business day.
+    - #### Medium complexity issues
+        resolved within 2 business days.
+    - #### Complex issues
+        resolved within 3 business days, with ongoing progress updates.
 - ### Penalty Mechanism
 For failing to initiate or complete repairs within promised timeframes:
     - #### Micro Maintenance:
