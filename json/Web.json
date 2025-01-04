@@ -93,6 +93,19 @@
     {
         "type": "link",
         "title": {
+            "zh": "Skill Icons 選擇器",
+            "en": "Skill Icons Picker"
+        },
+        "subtitle": {
+            "zh": "Skill Icons 選擇器",
+            "en": "Skill Icons Picker"
+        },
+        "href": "https://pardnchiu.github.io/skill-icons-picker",
+        "image": "https://opengraph.githubassets.com/1/pardnchiu/skill-icons-picker"
+    },
+    {
+        "type": "link",
+        "title": {
             "zh": "pdf2image",
             "en": "pdf2image"
         },
