@@ -2,12 +2,12 @@
     {
         "type": "link",
         "title": {
-            "zh": "QuickUI",
-            "en": "QuickUI"
+            "zh": "QuickUI 輕量化前端框架",
+            "en": "QuickUI Frontend Framework"
         },
         "subtitle": {
-            "zh": "輕量化前端框架",
-            "en": "Frontend Framework"
+            "zh": "JavaScript 庫",
+            "en": "JavaScript Library"
         },
         "href": "https://quickui.pardn.io/",
         "image": "./image/Web/QuickUI.jpg"
@@ -15,12 +15,12 @@
     {
         "type": "link",
         "title": {
-            "zh": "NanoMD",
-            "en": "NanoMD"
+            "zh": "NanoMD 輕量化MD編輯器",
+            "en": "NanoMD Lightweight MD Editor"
         },
         "subtitle": {
-            "zh": "輕量化MD編輯器",
-            "en": "Lightweight MD Editor"
+            "zh": "JavaScript 庫",
+            "en": "JavaScript Library"
         },
         "href": "https://nanomd.pardn.io/",
         "image": "./image/Web/NanoMD.jpg"
@@ -28,12 +28,12 @@
     {
         "type": "link",
         "title": {
-            "zh": "FlexPlyr",
-            "en": "FlexPlyr"
+            "zh": "FlexPlyr 多風格媒體播放器",
+            "en": "FlexPlyr Media Player"
         },
         "subtitle": {
-            "zh": "多風格媒體播放器",
-            "en": "Media Player"
+            "zh": "JavaScript 庫",
+            "en": "JavaScript Library"
         },
         "href": "https://flexplyr.pardn.io",
         "image": "./image/Web/FlexPlyr.jpg"
@@ -41,12 +41,12 @@
     {
         "type": "link",
         "title": {
-            "zh": "RenderJS",
-            "en": "RenderJS"
+            "zh": "RenderJS 前端擴展",
+            "en": "RenderJS Frontend Extension"
         },
         "subtitle": {
-            "zh": "前端擴展",
-            "en": "Frontend Extension"
+            "zh": "JavaScript 庫",
+            "en": "JavaScript Library"
         },
         "href": "https://renderjs.pardn.io",
         "image": "https://opengraph.githubassets.com/1/pardnchiu/RenderJS"
@@ -54,12 +54,12 @@
     {
         "type": "link",
         "title": {
-            "zh": "Webuilder",
-            "en": "Webuilder"
+            "zh": "Wesite Builder 架站工具",
+            "en": "Wesite Builder"
         },
         "subtitle": {
-            "zh": "架站工具",
-            "en": "Website Builder"
+            "zh": "網頁工具",
+            "en": "Web tool"
         },
         "href": "https://pardn.io/website-builder",
         "image": "https://opengraph.githubassets.com/1/pardnchiu/website-builder"
@@ -71,7 +71,7 @@
             "en": "Web Template"
         },
         "subtitle": {
-            "zh": "38個前端範例",
+            "zh": "38 個前端範例",
             "en": "38 frontend examples"
         },
         "href": "https://pardnchiu.github.io/web-template",
@@ -80,12 +80,12 @@
     {
         "type": "link",
         "title": {
-            "zh": "Pane Desk",
-            "en": "Pane Desk"
+            "zh": "Pane Desk 窗口管理範例",
+            "en": "Pane Desk Window Management"
         },
         "subtitle": {
-            "zh": "窗口管理範例",
-            "en": "Window Management"
+            "zh": "前端範例",
+            "en": "Frontend example"
         },
         "href": "https://pardnchiu.github.io/pane-desk",
         "image": "https://opengraph.githubassets.com/1/pardnchiu/pane-desk"
@@ -97,8 +97,8 @@
             "en": "Skill Icons Picker"
         },
         "subtitle": {
-            "zh": "Skill Icons 選擇器",
-            "en": "Skill Icons Picker"
+            "zh": "網頁工具",
+            "en": "Web tool"
         },
         "href": "https://pardnchiu.github.io/skill-icons-picker",
         "image": "https://opengraph.githubassets.com/1/pardnchiu/skill-icons-picker"
@@ -110,8 +110,8 @@
             "en": "pdf2image"
         },
         "subtitle": {
-            "zh": "PDF 轉圖片格式",
-            "en": "PDF to image"
+            "zh": "JavaScript 庫",
+            "en": "JavaScript Library"
         },
         "href": "https://pardnchiu.github.io/pdf2image",
         "image": "https://opengraph.githubassets.com/1/pardnchiu/pdf2image"
@@ -119,11 +119,11 @@
     {
         "type": "link",
         "title": {
-            "zh": "Pokemon Quest",
+            "zh": "Pokemon Quest 寶可夢探險圖鑑",
             "en": "Pokemon Quest"
         },
         "subtitle": {
-            "zh": "寶可夢探險圖鑑",
+            "zh": "CSS 繪圖",
             "en": "CSS drawing"
         },
         "href": "https://pardnchiu.github.io/css-pokemon-quest",
@@ -136,8 +136,8 @@
             "en": "PDPHP Async"
         },
         "subtitle": {
-            "zh": "依賴排序的非同步任務",
-            "en": "Async Tasks with Dependency Sorting"
+            "zh": "PHP 庫",
+            "en": "PHP Library"
         },
         "href": "https://github.com/pardnchiu/PDPHP-Async",
         "image": "https://opengraph.githubassets.com/1/pardnchiu/PDPHP-Async"
@@ -145,12 +145,12 @@
     {
         "type": "link",
         "title": {
-            "zh": "PHP Blog",
+            "zh": "PHP 部落格",
             "en": "PHP Blog"
         },
         "subtitle": {
-            "zh": "PHP部落格範例",
-            "en": "PHP Blog"
+            "zh": "PHP 範例",
+            "en": "PHP example"
         },
         "href": "https://github.com/pardnchiu/php-blog",
         "image": "https://opengraph.githubassets.com/1/pardnchiu/php-blog"
@@ -175,7 +175,7 @@
             "en": "QuickComments"
         },
         "subtitle": {
-            "zh": "AI注釋工具",
+            "zh": "VSCode 擴展",
             "en": "VSCode extension"
         },
         "href": "https://github.com/pardnchiu/vscode-QuickComments",
