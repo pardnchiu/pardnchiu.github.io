@@ -1,184 +1,210 @@
 [
-    {
-        "type": "link",
-        "title": {
-            "zh": "QuickUI 輕量化前端框架",
-            "en": "QuickUI Frontend Framework"
-        },
-        "subtitle": {
-            "zh": "JavaScript 庫",
-            "en": "JavaScript Library"
-        },
-        "href": "https://quickui.pardn.io/",
-        "image": "./image/Web/QuickUI.jpg"
+  {
+    "type": "link",
+    "title": {
+      "zh": "QuickUI: 輕量化前端框架",
+      "en": "QuickUI"
     },
-    {
-        "type": "link",
-        "title": {
-            "zh": "NanoMD 輕量化MD編輯器",
-            "en": "NanoMD Lightweight MD Editor"
-        },
-        "subtitle": {
-            "zh": "JavaScript 庫",
-            "en": "JavaScript Library"
-        },
-        "href": "https://nanomd.pardn.io/",
-        "image": "./image/Web/NanoMD.jpg"
+    "subtitle": {
+      "zh": "資源庫/JavaScript & TypeScript",
+      "en": "Library/JavaScript & TypeScript"
     },
-    {
-        "type": "link",
-        "title": {
-            "zh": "FlexPlyr 多風格媒體播放器",
-            "en": "FlexPlyr Media Player"
-        },
-        "subtitle": {
-            "zh": "JavaScript 庫",
-            "en": "JavaScript Library"
-        },
-        "href": "https://flexplyr.pardn.io",
-        "image": "./image/Web/FlexPlyr.jpg"
+    "href": "https://quickui.pardn.io/",
+    "image": "https://skillicons.dev/icons?i=typescript"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "NanoMD",
+      "en": "NanoMD"
     },
-    {
-        "type": "link",
-        "title": {
-            "zh": "RenderJS 前端擴展",
-            "en": "RenderJS Frontend Extension"
-        },
-        "subtitle": {
-            "zh": "JavaScript 庫",
-            "en": "JavaScript Library"
-        },
-        "href": "https://renderjs.pardn.io",
-        "image": "https://opengraph.githubassets.com/1/pardnchiu/RenderJS"
+    "subtitle": {
+      "zh": "資源庫/JavaScript & TypeScript",
+      "en": "Library/JavaScript & TypeScript"
     },
-    {
-        "type": "link",
-        "title": {
-            "zh": "Wesite Builder 架站工具",
-            "en": "Wesite Builder"
-        },
-        "subtitle": {
-            "zh": "網頁工具",
-            "en": "Web tool"
-        },
-        "href": "https://pardn.io/website-builder",
-        "image": "https://opengraph.githubassets.com/1/pardnchiu/website-builder"
+    "href": "https://nanomd.pardn.io/",
+    "image": "https://skillicons.dev/icons?i=javascript"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "NanoJSON",
+      "en": "NanoJSON"
     },
-    {
-        "type": "link",
-        "title": {
-            "zh": "Web Template",
-            "en": "Web Template"
-        },
-        "subtitle": {
-            "zh": "38 個前端範例",
-            "en": "38 frontend examples"
-        },
-        "href": "https://pardnchiu.github.io/web-template",
-        "image": "https://opengraph.githubassets.com/1/pardnchiu/web-template"
+    "subtitle": {
+      "zh": "資源庫/JavaScript & TypeScript",
+      "en": "Library/JavaScript & TypeScript"
     },
-    {
-        "type": "link",
-        "title": {
-            "zh": "Pane Desk 窗口管理範例",
-            "en": "Pane Desk Window Management"
-        },
-        "subtitle": {
-            "zh": "前端範例",
-            "en": "Frontend example"
-        },
-        "href": "https://pardnchiu.github.io/pane-desk",
-        "image": "https://opengraph.githubassets.com/1/pardnchiu/pane-desk"
+    "href": "https://nanojson.pardn.io/",
+    "image": "https://skillicons.dev/icons?i=javascript"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "FlexPlyr: 多風格媒體播放器",
+      "en": "FlexPlyr"
     },
-    {
-        "type": "link",
-        "title": {
-            "zh": "Skill Icons 選擇器",
-            "en": "Skill Icons Picker"
-        },
-        "subtitle": {
-            "zh": "網頁工具",
-            "en": "Web tool"
-        },
-        "href": "https://pardnchiu.github.io/skill-icons-picker",
-        "image": "https://opengraph.githubassets.com/1/pardnchiu/skill-icons-picker"
+    "subtitle": {
+      "zh": "資源庫/JavaScript & TypeScript",
+      "en": "Library/JavaScript & TypeScript"
     },
-    {
-        "type": "link",
-        "title": {
-            "zh": "pdf2image",
-            "en": "pdf2image"
-        },
-        "subtitle": {
-            "zh": "JavaScript 庫",
-            "en": "JavaScript Library"
-        },
-        "href": "https://pardnchiu.github.io/pdf2image",
-        "image": "https://opengraph.githubassets.com/1/pardnchiu/pdf2image"
+    "href": "https://flexplyr.pardn.io",
+    "image": "https://skillicons.dev/icons?i=javascript"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "RenderJS 前端擴展",
+      "en": "RenderJS"
     },
-    {
-        "type": "link",
-        "title": {
-            "zh": "Pokemon Quest 寶可夢探險圖鑑",
-            "en": "Pokemon Quest"
-        },
-        "subtitle": {
-            "zh": "CSS 繪圖",
-            "en": "CSS drawing"
-        },
-        "href": "https://pardnchiu.github.io/css-pokemon-quest",
-        "image": "./image/Web/css-pokemon-quest.jpg"
+    "subtitle": {
+      "zh": "資源庫/JavaScript & TypeScript",
+      "en": "Library/JavaScript & TypeScript"
     },
-    {
-        "type": "link",
-        "title": {
-            "zh": "PDPHP Async",
-            "en": "PDPHP Async"
-        },
-        "subtitle": {
-            "zh": "PHP 庫",
-            "en": "PHP Library"
-        },
-        "href": "https://github.com/pardnchiu/PDPHP-Async",
-        "image": "https://opengraph.githubassets.com/1/pardnchiu/PDPHP-Async"
+    "href": "https://renderjs.pardn.io",
+    "image": "https://skillicons.dev/icons?i=javascript"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "pdf2image",
+      "en": "pdf2image"
     },
-    {
-        "type": "link",
-        "title": {
-            "zh": "PHP 部落格",
-            "en": "PHP Blog"
-        },
-        "subtitle": {
-            "zh": "PHP 範例",
-            "en": "PHP example"
-        },
-        "href": "https://github.com/pardnchiu/php-blog",
-        "image": "https://opengraph.githubassets.com/1/pardnchiu/php-blog"
+    "subtitle": {
+      "zh": "資源庫/JavaScript & TypeScript",
+      "en": "Library/JavaScript & TypeScript"
     },
-    {
-        "type": "link",
-        "title": {
-            "zh": "JOBALL找專家",
-            "en": "JOBALL"
-        },
-        "subtitle": {
-            "zh": "人才媒合平台",
-            "en": "Talent Matching"
-        },
-        "href": "https://joball.tw",
-        "image": "./image/Web/JOBALL.jpg"
+    "href": "https://pdf2image.pardn.io",
+    "image": "https://skillicons.dev/icons?i=javascript"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "ExSwift: 聲明式語法擴展",
+      "en": "ExSwift"
     },
-    {
-        "type": "link",
-        "title": {
-            "zh": "QuickComments",
-            "en": "QuickComments"
-        },
-        "subtitle": {
-            "zh": "VSCode 擴展",
-            "en": "VSCode extension"
-        },
-        "href": "https://github.com/pardnchiu/vscode-QuickComments",
-        "image": "https://opengraph.githubassets.com/1/pardnchiu/vscode-QuickComments"
-    }
+    "subtitle": {
+      "zh": "資源庫/Swift",
+      "en": "Library/Swift"
+    },
+    "href": "https://github.com/pardnchiu/ExSwift",
+    "image": "https://skillicons.dev/icons?i=swift"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "demo-web",
+      "en": "demo-web"
+    },
+    "subtitle": {
+      "zh": "範例/網站",
+      "en": "Demo/Website"
+    },
+    "href": "https://pardnchiu.github.io/demo-web",
+    "image": "https://skillicons.dev/icons?i=html"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "DeskUI",
+      "en": "DeskUI"
+    },
+    "subtitle": {
+      "zh": "範例/網站",
+      "en": "Demo/Website"
+    },
+    "href": "https://pardnchiu.github.io/deskui",
+    "image": "https://skillicons.dev/icons?i=html"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "WebUI",
+      "en": "WebUI"
+    },
+    "subtitle": {
+      "zh": "範例/網站",
+      "en": "Demo/Website"
+    },
+    "href": "https://webui.pardn.io/",
+    "image": "https://skillicons.dev/icons?i=html"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "AdminUI",
+      "en": "AdminUI"
+    },
+    "subtitle": {
+      "zh": "範例/網站",
+      "en": "Demo/Website"
+    },
+    "href": "https://adminui.pardn.io/",
+    "image": "https://skillicons.dev/icons?i=html"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "demo-swiftui",
+      "en": "demo-swiftui"
+    },
+    "subtitle": {
+      "zh": "範例/iOS",
+      "en": "Demo/iOS"
+    },
+    "href": "https://github.com/pardnchiu/demo-swiftui",
+    "image": "https://skillicons.dev/icons?i=swift"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "demo-swift-firebase-messaging",
+      "en": "demo-swift-firebase-messaging"
+    },
+    "subtitle": {
+      "zh": "範例/iOS",
+      "en": "Demo/iOS"
+    },
+    "href": "https://github.com/pardnchiu/demo-swift-firebase-messaging",
+    "image": "https://skillicons.dev/icons?i=swift"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "demo-swift-moneybook",
+      "en": "demo-swift-moneybook"
+    },
+    "subtitle": {
+      "zh": "範例/iOS",
+      "en": "Demo/iOS"
+    },
+    "href": "https://github.com/pardnchiu/demo-swift-moneybook",
+    "image": "https://skillicons.dev/icons?i=swift"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "SkilliconsPicker",
+      "en": "SkilliconsPicker"
+    },
+    "subtitle": {
+      "zh": "其他/網站",
+      "en": "Others/Website"
+    },
+    "href": "https://pardnchiu.github.io/SkilliconsPicker",
+    "image": "https://skillicons.dev/icons?i=html"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "Pokemon Quest",
+      "en": "Pokemon Quest"
+    },
+    "subtitle": {
+      "zh": "其他/CSS",
+      "en": "Others/CSS"
+    },
+    "href": "https://pardnchiu.github.io/css-pokemon-quest",
+    "image": "https://skillicons.dev/icons?i=css"
+  }
 ]

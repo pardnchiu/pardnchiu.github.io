@@ -1,0 +1,340 @@
+[
+  {
+    "type": "link",
+    "title": {
+      "zh": "go-pve-qemu",
+      "en": "go-pve-qemu"
+    },
+    "subtitle": {
+      "zh": "服務/虛擬化",
+      "en": "Services/Virtualization"
+    },
+    "href": "https://github.com/pardnchiu/go-pve-qemu",
+    "image": "https://skillicons.dev/icons?i=go"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "go-faas",
+      "en": "go-faas"
+    },
+    "subtitle": {
+      "zh": "服務/無伺服器架構",
+      "en": "Services/Serverless"
+    },
+    "href": "https://github.com/pardnchiu/go-faas",
+    "image": "https://skillicons.dev/icons?i=go"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "JsonDB",
+      "en": "JsonDB"
+    },
+    "subtitle": {
+      "zh": "服務/資料庫",
+      "en": "Services/Database"
+    },
+    "href": "https://github.com/pardnchiu/jsondb",
+    "image": "https://skillicons.dev/icons?i=go"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "web-monitor",
+      "en": "web-monitor"
+    },
+    "subtitle": {
+      "zh": "服務/其他",
+      "en": "Services/Others"
+    },
+    "href": "https://github.com/pardnchiu/web-monitor",
+    "image": "https://skillicons.dev/icons?i=go"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "rss-reader",
+      "en": "rss-reader"
+    },
+    "subtitle": {
+      "zh": "服務/其他",
+      "en": "Services/Others"
+    },
+    "href": "https://github.com/pardnchiu/rss-reader",
+    "image": "https://skillicons.dev/icons?i=go"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "cim-prototype",
+      "en": "cim-prototype"
+    },
+    "subtitle": {
+      "zh": "服務/其他",
+      "en": "Services/Others"
+    },
+    "href": "https://github.com/pardnchiu/cim-prototype",
+    "image": "https://skillicons.dev/icons?i=go"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "go-image-server",
+      "en": "go-image-server"
+    },
+    "subtitle": {
+      "zh": "服務/其他",
+      "en": "Services/Others"
+    },
+    "href": "https://github.com/pardnchiu/go-image-server",
+    "image": "https://skillicons.dev/icons?i=go"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "node-image-server",
+      "en": "node-image-server"
+    },
+    "subtitle": {
+      "zh": "服務/其他",
+      "en": "Services/Others"
+    },
+    "href": "https://github.com/pardnchiu/node-image-server",
+    "image": "https://skillicons.dev/icons?i=nodejs"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "go-pg",
+      "en": "go-pg"
+    },
+    "subtitle": {
+      "zh": "套件/資料庫連線",
+      "en": "Packages/Database Client"
+    },
+    "href": "https://github.com/pardnchiu/go-pg",
+    "image": "https://skillicons.dev/icons?i=go"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "go-mysql",
+      "en": "go-mysql"
+    },
+    "subtitle": {
+      "zh": "套件/資料庫連線",
+      "en": "Packages/Database Client"
+    },
+    "href": "https://github.com/pardnchiu/go-mysql",
+    "image": "https://skillicons.dev/icons?i=go"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "node-mysql-pool",
+      "en": "node-mysql-pool"
+    },
+    "subtitle": {
+      "zh": "套件/資料庫連線",
+      "en": "Packages/Database Client"
+    },
+    "href": "https://github.com/pardnchiu/node-mysql-pool",
+    "image": "https://skillicons.dev/icons?i=nodejs"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "php-mysql-cli",
+      "en": "php-mysql-cli"
+    },
+    "subtitle": {
+      "zh": "套件/資料庫連線",
+      "en": "Packages/Database Client"
+    },
+    "href": "https://github.com/pardnchiu/php-mysql-cli",
+    "image": "https://skillicons.dev/icons?i=php"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "go-redis-fallback",
+      "en": "go-redis-fallback"
+    },
+    "subtitle": {
+      "zh": "套件/快取與會話",
+      "en": "Packages/Cache & Session"
+    },
+    "href": "https://github.com/pardnchiu/go-redis-fallback",
+    "image": "https://skillicons.dev/icons?i=go"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "php-redis-cli",
+      "en": "php-redis-cli"
+    },
+    "subtitle": {
+      "zh": "套件/快取與會話",
+      "en": "Packages/Cache & Session"
+    },
+    "href": "https://github.com/pardnchiu/php-redis-cli",
+    "image": "https://skillicons.dev/icons?i=php"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "php-cache-fallback",
+      "en": "php-cache-fallback"
+    },
+    "subtitle": {
+      "zh": "套件/快取與會話",
+      "en": "Packages/Cache & Session"
+    },
+    "href": "https://github.com/pardnchiu/php-cache-fallback",
+    "image": "https://skillicons.dev/icons?i=php"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "php-session-fallback",
+      "en": "php-session-fallback"
+    },
+    "subtitle": {
+      "zh": "套件/快取與會話",
+      "en": "Packages/Cache & Session"
+    },
+    "href": "https://github.com/pardnchiu/php-session-fallback",
+    "image": "https://skillicons.dev/icons?i=php"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "go-ip-sentry",
+      "en": "go-ip-sentry"
+    },
+    "subtitle": {
+      "zh": "套件/身份驗證與安全",
+      "en": "Packages/Authentication & Security"
+    },
+    "href": "https://github.com/pardnchiu/go-ip-sentry",
+    "image": "https://skillicons.dev/icons?i=go"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "go-jwt",
+      "en": "go-jwt"
+    },
+    "subtitle": {
+      "zh": "套件/身份驗證與安全",
+      "en": "Packages/Authentication & Security"
+    },
+    "href": "https://github.com/pardnchiu/go-jwt",
+    "image": "https://skillicons.dev/icons?i=go"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "node-jwt-auth",
+      "en": "node-jwt-auth"
+    },
+    "subtitle": {
+      "zh": "套件/身份驗證與安全",
+      "en": "Packages/Authentication & Security"
+    },
+    "href": "https://github.com/pardnchiu/node-jwt-auth",
+    "image": "https://skillicons.dev/icons?i=nodejs"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "go-queue",
+      "en": "go-queue"
+    },
+    "subtitle": {
+      "zh": "套件/工具庫",
+      "en": "Packages/Utilities"
+    },
+    "href": "https://github.com/pardnchiu/go-queue",
+    "image": "https://skillicons.dev/icons?i=go"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "go-scheduler",
+      "en": "go-scheduler"
+    },
+    "subtitle": {
+      "zh": "套件/工具庫",
+      "en": "Packages/Utilities"
+    },
+    "href": "https://github.com/pardnchiu/go-scheduler",
+    "image": "https://skillicons.dev/icons?i=go"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "go-logger",
+      "en": "go-logger"
+    },
+    "subtitle": {
+      "zh": "套件/工具庫",
+      "en": "Packages/Utilities"
+    },
+    "href": "https://github.com/pardnchiu/go-logger",
+    "image": "https://skillicons.dev/icons?i=go"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "php-mailer",
+      "en": "php-mailer"
+    },
+    "subtitle": {
+      "zh": "套件/工具庫",
+      "en": "Packages/Utilities"
+    },
+    "href": "https://github.com/pardnchiu/php-mailer",
+    "image": "https://skillicons.dev/icons?i=php"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "php-async",
+      "en": "php-async"
+    },
+    "subtitle": {
+      "zh": "套件/工具庫",
+      "en": "Packages/Utilities"
+    },
+    "href": "https://github.com/pardnchiu/php-async",
+    "image": "https://skillicons.dev/icons?i=php"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "pdpve",
+      "en": "pdpve"
+    },
+    "subtitle": {
+      "zh": "腳本",
+      "en": "Scripts"
+    },
+    "href": "https://github.com/pardnchiu/pdpve",
+    "image": "https://skillicons.dev/icons?i=bash"
+  },
+  {
+    "type": "link",
+    "title": {
+      "zh": "c2hat-relay",
+      "en": "c2hat-relay"
+    },
+    "subtitle": {
+      "zh": "雲端函式",
+      "en": "Edge Functions"
+    },
+    "href": "https://github.com/pardnchiu/c2hat-relay",
+    "image": "https://skillicons.dev/icons?i=nodejs"
+  }
+]

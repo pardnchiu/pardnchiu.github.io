@@ -1,9 +1,9 @@
 {
-    "hello": "Hi<p>STRANGER</p><span>👋</span>",
-    "name": "I'm Pardn Chiu",
-    "title": "iOS / Web Dev.",
-    "content": "With full-cycle development experience,<br>helping businesses and startups succeed efficiently.<br><em>Sharing only my own projects..</em>",
-    "social": "SOCAILS",
-    "contact": "GET IN TOUCH",
-    "about": "About"
+  "hello": "Hi<p>STRANGER</p><span>👋</span>",
+  "name": "I'm Pardn Chiu",
+  "title": "Systems Architect",
+  "content": "Specializing in IT room design, virtualization platforms,<br>full-stack web development, and native iOS development.<br>Rapid MVP delivery for enterprises and startups.<br><em>Sharing personal projects only.</em>",
+  "social": "SOCIALS",
+  "contact": "GET IN TOUCH",
+  "about": "About"
 }

@@ -1,9 +1,9 @@
 {
-    "hello": "Hi<p>朋友</p><span>👋</span>",
-    "name": "我叫邱敬幃",
-    "title": "iOS / Web 開發者",
-    "content": "擁有從需求分析到產品上線的完整開發經驗<br>幫助企業和初創公司快速實現商業目標<br><em>僅分享自己個人的項目</em>",
-    "social": "社群平台",
-    "contact": "與我聯繫",
-    "about": "關於我"
+  "hello": "Hi<p>朋友</p><span>👋</span>",
+  "name": "我叫邱敬幃",
+  "title": "系統架構師",
+  "content": "領域涵蓋中小型機房規劃、虛擬化平台、網站全端到 iOS 原生開發<br>為企業與新創快速開發 MVP。<br><em>僅分享自己個人的項目</em>",
+  "social": "社群平台",
+  "contact": "與我聯繫",
+  "about": "關於我"
 }

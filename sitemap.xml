@@ -3,7 +3,7 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://pardn.io/index.html</loc>
-        <lastmod>2024-12-25</lastmod>
+        <lastmod>2025-12-23</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
         <xhtml:link rel="alternate" hreflang="zh" href="https://pardn.io/index.html?lang=zh"/>
@@ -11,7 +11,7 @@
     </url>
     <url>
         <loc>https://pardn.io/index.html?folder=about</loc>
-        <lastmod>2024-12-25</lastmod>
+        <lastmod>2025-12-23</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
         <xhtml:link rel="alternate" hreflang="zh" href="https://pardn.io/index.html?folder=about?lang=zh"/>
@@ -19,7 +19,7 @@
     </url>
     <url>
         <loc>https://pardn.io/index.html?folder=about&target=technologies_used</loc>
-        <lastmod>2024-12-25</lastmod>
+        <lastmod>2025-12-23</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
         <xhtml:link rel="alternate" hreflang="zh" href="https://pardn.io/index.html?folder=about&amp;target=technologies_used&amp;lang=zh"/>
@@ -27,15 +27,15 @@
     </url>
     <url>
         <loc>https://pardn.io/index.html?folder=about&target=pricing_model</loc>
-        <lastmod>2024-12-25</lastmod>
+        <lastmod>2025-12-23</lastmod>
         <changefreq>daily</changefreq>
-        <priority>0.8</priority>2024-12-25
+        <priority>0.8</priority>2025-12-23
         <xhtml:link rel="alternate" hreflang="zh" href="https://pardn.io/index.html?folder=about&amp;target=pricing_model&amp;lang=zh"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://pardn.io/index.html?folder=about&amp;target=pricing_model&amp;lang=en"/>
     </url>
     <url>
         <loc>https://pardn.io/index.html?folder=about&target=development</loc>
-        <lastmod>2024-12-25</lastmod>
+        <lastmod>2025-12-23</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
         <xhtml:link rel="alternate" hreflang="zh" href="https://pardn.io/index.html?folder=about&amp;target=pricing_model&amp;lang=zh"/>
@@ -43,7 +43,7 @@
     </url>
     <url>
         <loc>https://pardn.io/index.html?folder=about&target=pricing_details</loc>
-        <lastmod>2024-12-25</lastmod>
+        <lastmod>2025-12-23</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
         <xhtml:link rel="alternate" hreflang="zh" href="https://pardn.io/index.html?folder=about&amp;target=pricing_details&amp;lang=zh"/>
@@ -51,7 +51,7 @@
     </url>
     <url>
         <loc>https://pardn.io/index.html?folder=about&target=project_maintenance</loc>
-        <lastmod>2024-12-25</lastmod>
+        <lastmod>2025-12-23</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
         <xhtml:link rel="alternate" hreflang="zh" href="https://pardn.io/index.html?folder=about&amp;target=project_maintenance&amp;lang=zh"/>
@@ -59,7 +59,7 @@
     </url>
     <url>
         <loc>https://pardn.io/index.html?folder=about&target=faq</loc>
-        <lastmod>2024-12-25</lastmod>
+        <lastmod>2025-12-23</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
         <xhtml:link rel="alternate" hreflang="zh" href="https://pardn.io/index.html?folder=about&amp;target=faq&amp;lang=zh"/>
@@ -67,7 +67,7 @@
     </url>
     <url>
         <loc>https://pardn.io/index.html?folder=ios</loc>
-        <lastmod>2024-12-25</lastmod>
+        <lastmod>2025-12-23</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
         <xhtml:link rel="alternate" hreflang="zh" href="https://pardn.io/index.html?folder=ios?lang=zh"/>
@@ -75,7 +75,7 @@
     </url>
     <url>
         <loc>https://pardn.io/index.html?folder=web</loc>
-        <lastmod>2024-12-25</lastmod>
+        <lastmod>2025-12-23</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
         <xhtml:link rel="alternate" hreflang="zh" href="https://pardn.io/index.html?folder=web?lang=zh"/>
